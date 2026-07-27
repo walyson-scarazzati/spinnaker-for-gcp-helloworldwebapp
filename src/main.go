@@ -6,7 +6,7 @@ import (
 )
 
 func hello(w http.ResponseWriter, r *http.Request) {
-  io.WriteString(w, "<body style='background-color: green'><h1>Hello World</h1></body>")
+  io.WriteString(w, "<body style='background-color: green'><h1>Hello World 1.0</h1></body>")
 }
 
 func main() {
